@@ -130,10 +130,11 @@ label #cancel {
     .logo {
         text-align: center;
     }
-    nav {
-        width: 335px;
+    .sidebar {
+        width: 150px;
     }
     .text {
         text-align: center;
+        width: 200px;
     }
 }
