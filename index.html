@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRONX</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <h2 class="logo">BRONX</h2>
+            <input type="checkbox" id="check" />
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div class="sidebar">
+                <header>お店情報</header>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fas fa-qrcode"></i>ホーム</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-link"></i>所在地</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-coffee"></i>コーヒ一</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-envelope"></i>お問い合わせ</a>
+                  </li>
+                </ul>
+              </div>         
+            <p class="text">
+              神楽坂に古くから構えるダイニングバー<br>
+              日中は喫茶店としても営業しており、喫茶店ならではのメニューが並ぶ<br>
+              古き良き空間に腰を据えて、あなただけの時間をゆっくりと。
+            </p>
+        </nav>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: "60px",
+        duration: 2000, //2sかけてアニメーション
+        delay: 200 /* 0.2s後に発動 */,
+      });
+      ScrollReveal().reveal(".logo", {
+        delay: 200,
+        origin: "left",
+      });
+    </script>
+</body>
+</html>
