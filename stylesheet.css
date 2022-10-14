@@ -128,7 +128,7 @@ label #cancel {
         height: 100vh;
     }
     .logo {
-        text-align: center;
+        margin-left:-300px;
     }
     .sidebar {
         width: 150px;
